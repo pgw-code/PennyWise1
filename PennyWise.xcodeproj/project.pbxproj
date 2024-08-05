@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50EAD7CE2C5F4BFF0058D4E4 /* PennyWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7CD2C5F4BFF0058D4E4 /* PennyWiseApp.swift */; };
+		50EAD7D32C5F4BFF0058D4E4 /* PennyWise.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7D12C5F4BFF0058D4E4 /* PennyWise.xcdatamodeld */; };
+		50EAD7D52C5F4BFF0058D4E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7D42C5F4BFF0058D4E4 /* ContentView.swift */; };
+		50EAD7D72C5F4C000058D4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EAD7D62C5F4C000058D4E4 /* Assets.xcassets */; };
+		50EAD7DB2C5F4C000058D4E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EAD7DA2C5F4C000058D4E4 /* Preview Assets.xcassets */; };
+		50EAD7E52C5F4C010058D4E4 /* PennyWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7E42C5F4C010058D4E4 /* PennyWiseTests.swift */; };
+		50EAD7EF2C5F4C010058D4E4 /* PennyWiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7EE2C5F4C010058D4E4 /* PennyWiseUITests.swift */; };
+		50EAD7F12C5F4C010058D4E4 /* PennyWiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7F02C5F4C010058D4E4 /* PennyWiseUITestsLaunchTests.swift */; };
+		50EAD8002C5F4C7D0058D4E4 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7FF2C5F4C7D0058D4E4 /* BudgetViewModel.swift */; };
+		50EAD8022C5F4D1E0058D4E4 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8012C5F4D1D0058D4E4 /* AddTransactionView.swift */; };
+		50EAD8042C5F55620058D4E4 /* ManualFetchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8032C5F55620058D4E4 /* ManualFetchView.swift */; };
+		50EAD8092C5F5D2B0058D4E4 /* PersistanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8082C5F5D2B0058D4E4 /* PersistanceController.swift */; };
+		50EAD80C2C5F60830058D4E4 /* PennyWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7CD2C5F4BFF0058D4E4 /* PennyWiseApp.swift */; };
+		50EAD80D2C5F60840058D4E4 /* PennyWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD7CD2C5F4BFF0058D4E4 /* PennyWiseApp.swift */; };
+		50EAD8112C5FE49A0058D4E4 /* FinanceChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8102C5FE49A0058D4E4 /* FinanceChartView.swift */; };
+		50EAD8132C5FF76B0058D4E4 /* BurndownChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8122C5FF76B0058D4E4 /* BurndownChartView.swift */; };
+		50EAD8152C5FFAA70058D4E4 /* BudgetInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8142C5FFAA70058D4E4 /* BudgetInputView.swift */; };
+		50EAD8172C600A320058D4E4 /* BudgetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8162C600A320058D4E4 /* BudgetListView.swift */; };
+		50EAD8192C600C4B0058D4E4 /* BudgetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EAD8182C600C4B0058D4E4 /* BudgetDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50EAD7E12C5F4C010058D4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EAD7C22C5F4BFF0058D4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EAD7C92C5F4BFF0058D4E4;
+			remoteInfo = PennyWise;
+		};
+		50EAD7EB2C5F4C010058D4E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50EAD7C22C5F4BFF0058D4E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50EAD7C92C5F4BFF0058D4E4;
+			remoteInfo = PennyWise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50EAD7CA2C5F4BFF0058D4E4 /* PennyWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennyWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EAD7CD2C5F4BFF0058D4E4 /* PennyWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyWiseApp.swift; sourceTree = "<group>"; };
+		50EAD7D22C5F4BFF0058D4E4 /* PennyWise.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PennyWise.xcdatamodel; sourceTree = "<group>"; };
+		50EAD7D42C5F4BFF0058D4E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		50EAD7D62C5F4C000058D4E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50EAD7D82C5F4C000058D4E4 /* PennyWise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PennyWise.entitlements; sourceTree = "<group>"; };
+		50EAD7DA2C5F4C000058D4E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		50EAD7E02C5F4C010058D4E4 /* PennyWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EAD7E42C5F4C010058D4E4 /* PennyWiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyWiseTests.swift; sourceTree = "<group>"; };
+		50EAD7EA2C5F4C010058D4E4 /* PennyWiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennyWiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50EAD7EE2C5F4C010058D4E4 /* PennyWiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyWiseUITests.swift; sourceTree = "<group>"; };
+		50EAD7F02C5F4C010058D4E4 /* PennyWiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennyWiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		50EAD7FF2C5F4C7D0058D4E4 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		50EAD8012C5F4D1D0058D4E4 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		50EAD8032C5F55620058D4E4 /* ManualFetchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualFetchView.swift; sourceTree = "<group>"; };
+		50EAD8082C5F5D2B0058D4E4 /* PersistanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceController.swift; sourceTree = "<group>"; };
+		50EAD8102C5FE49A0058D4E4 /* FinanceChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceChartView.swift; sourceTree = "<group>"; };
+		50EAD8122C5FF76B0058D4E4 /* BurndownChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurndownChartView.swift; sourceTree = "<group>"; };
+		50EAD8142C5FFAA70058D4E4 /* BudgetInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetInputView.swift; sourceTree = "<group>"; };
+		50EAD8162C600A320058D4E4 /* BudgetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetListView.swift; sourceTree = "<group>"; };
+		50EAD8182C600C4B0058D4E4 /* BudgetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50EAD7C72C5F4BFF0058D4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7DD2C5F4C010058D4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7E72C5F4C010058D4E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50EAD7C12C5F4BFF0058D4E4 = {
+			isa = PBXGroup;
+			children = (
+				50EAD7CC2C5F4BFF0058D4E4 /* PennyWise */,
+				50EAD7E32C5F4C010058D4E4 /* PennyWiseTests */,
+				50EAD7ED2C5F4C010058D4E4 /* PennyWiseUITests */,
+				50EAD7CB2C5F4BFF0058D4E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50EAD7CB2C5F4BFF0058D4E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50EAD7CA2C5F4BFF0058D4E4 /* PennyWise.app */,
+				50EAD7E02C5F4C010058D4E4 /* PennyWiseTests.xctest */,
+				50EAD7EA2C5F4C010058D4E4 /* PennyWiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50EAD7CC2C5F4BFF0058D4E4 /* PennyWise */ = {
+			isa = PBXGroup;
+			children = (
+				50EAD8032C5F55620058D4E4 /* ManualFetchView.swift */,
+				50EAD7CD2C5F4BFF0058D4E4 /* PennyWiseApp.swift */,
+				50EAD8082C5F5D2B0058D4E4 /* PersistanceController.swift */,
+				50EAD7D42C5F4BFF0058D4E4 /* ContentView.swift */,
+				50EAD8122C5FF76B0058D4E4 /* BurndownChartView.swift */,
+				50EAD8142C5FFAA70058D4E4 /* BudgetInputView.swift */,
+				50EAD8162C600A320058D4E4 /* BudgetListView.swift */,
+				50EAD8182C600C4B0058D4E4 /* BudgetDetailView.swift */,
+				50EAD8012C5F4D1D0058D4E4 /* AddTransactionView.swift */,
+				50EAD7FF2C5F4C7D0058D4E4 /* BudgetViewModel.swift */,
+				50EAD8102C5FE49A0058D4E4 /* FinanceChartView.swift */,
+				50EAD7D62C5F4C000058D4E4 /* Assets.xcassets */,
+				50EAD7D82C5F4C000058D4E4 /* PennyWise.entitlements */,
+				50EAD7D12C5F4BFF0058D4E4 /* PennyWise.xcdatamodeld */,
+				50EAD7D92C5F4C000058D4E4 /* Preview Content */,
+			);
+			path = PennyWise;
+			sourceTree = "<group>";
+		};
+		50EAD7D92C5F4C000058D4E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				50EAD7DA2C5F4C000058D4E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50EAD7E32C5F4C010058D4E4 /* PennyWiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				50EAD7E42C5F4C010058D4E4 /* PennyWiseTests.swift */,
+			);
+			path = PennyWiseTests;
+			sourceTree = "<group>";
+		};
+		50EAD7ED2C5F4C010058D4E4 /* PennyWiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50EAD7EE2C5F4C010058D4E4 /* PennyWiseUITests.swift */,
+				50EAD7F02C5F4C010058D4E4 /* PennyWiseUITestsLaunchTests.swift */,
+			);
+			path = PennyWiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50EAD7C92C5F4BFF0058D4E4 /* PennyWise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EAD7F42C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWise" */;
+			buildPhases = (
+				50EAD7C62C5F4BFF0058D4E4 /* Sources */,
+				50EAD7C72C5F4BFF0058D4E4 /* Frameworks */,
+				50EAD7C82C5F4BFF0058D4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennyWise;
+			productName = PennyWise;
+			productReference = 50EAD7CA2C5F4BFF0058D4E4 /* PennyWise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50EAD7DF2C5F4C010058D4E4 /* PennyWiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EAD7F72C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWiseTests" */;
+			buildPhases = (
+				50EAD7DC2C5F4C010058D4E4 /* Sources */,
+				50EAD7DD2C5F4C010058D4E4 /* Frameworks */,
+				50EAD7DE2C5F4C010058D4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EAD7E22C5F4C010058D4E4 /* PBXTargetDependency */,
+			);
+			name = PennyWiseTests;
+			productName = PennyWiseTests;
+			productReference = 50EAD7E02C5F4C010058D4E4 /* PennyWiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50EAD7E92C5F4C010058D4E4 /* PennyWiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EAD7FA2C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWiseUITests" */;
+			buildPhases = (
+				50EAD7E62C5F4C010058D4E4 /* Sources */,
+				50EAD7E72C5F4C010058D4E4 /* Frameworks */,
+				50EAD7E82C5F4C010058D4E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50EAD7EC2C5F4C010058D4E4 /* PBXTargetDependency */,
+			);
+			name = PennyWiseUITests;
+			productName = PennyWiseUITests;
+			productReference = 50EAD7EA2C5F4C010058D4E4 /* PennyWiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50EAD7C22C5F4BFF0058D4E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					50EAD7C92C5F4BFF0058D4E4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					50EAD7DF2C5F4C010058D4E4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 50EAD7C92C5F4BFF0058D4E4;
+					};
+					50EAD7E92C5F4C010058D4E4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 50EAD7C92C5F4BFF0058D4E4;
+					};
+				};
+			};
+			buildConfigurationList = 50EAD7C52C5F4BFF0058D4E4 /* Build configuration list for PBXProject "PennyWise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50EAD7C12C5F4BFF0058D4E4;
+			productRefGroup = 50EAD7CB2C5F4BFF0058D4E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50EAD7C92C5F4BFF0058D4E4 /* PennyWise */,
+				50EAD7DF2C5F4C010058D4E4 /* PennyWiseTests */,
+				50EAD7E92C5F4C010058D4E4 /* PennyWiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50EAD7C82C5F4BFF0058D4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EAD7DB2C5F4C000058D4E4 /* Preview Assets.xcassets in Resources */,
+				50EAD7D72C5F4C000058D4E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7DE2C5F4C010058D4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7E82C5F4C010058D4E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50EAD7C62C5F4BFF0058D4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EAD8022C5F4D1E0058D4E4 /* AddTransactionView.swift in Sources */,
+				50EAD8132C5FF76B0058D4E4 /* BurndownChartView.swift in Sources */,
+				50EAD7CE2C5F4BFF0058D4E4 /* PennyWiseApp.swift in Sources */,
+				50EAD8112C5FE49A0058D4E4 /* FinanceChartView.swift in Sources */,
+				50EAD8172C600A320058D4E4 /* BudgetListView.swift in Sources */,
+				50EAD8042C5F55620058D4E4 /* ManualFetchView.swift in Sources */,
+				50EAD7D32C5F4BFF0058D4E4 /* PennyWise.xcdatamodeld in Sources */,
+				50EAD8002C5F4C7D0058D4E4 /* BudgetViewModel.swift in Sources */,
+				50EAD7D52C5F4BFF0058D4E4 /* ContentView.swift in Sources */,
+				50EAD8152C5FFAA70058D4E4 /* BudgetInputView.swift in Sources */,
+				50EAD8192C600C4B0058D4E4 /* BudgetDetailView.swift in Sources */,
+				50EAD8092C5F5D2B0058D4E4 /* PersistanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7DC2C5F4C010058D4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EAD7E52C5F4C010058D4E4 /* PennyWiseTests.swift in Sources */,
+				50EAD80C2C5F60830058D4E4 /* PennyWiseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50EAD7E62C5F4C010058D4E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50EAD80D2C5F60840058D4E4 /* PennyWiseApp.swift in Sources */,
+				50EAD7EF2C5F4C010058D4E4 /* PennyWiseUITests.swift in Sources */,
+				50EAD7F12C5F4C010058D4E4 /* PennyWiseUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50EAD7E22C5F4C010058D4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EAD7C92C5F4BFF0058D4E4 /* PennyWise */;
+			targetProxy = 50EAD7E12C5F4C010058D4E4 /* PBXContainerItemProxy */;
+		};
+		50EAD7EC2C5F4C010058D4E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50EAD7C92C5F4BFF0058D4E4 /* PennyWise */;
+			targetProxy = 50EAD7EB2C5F4C010058D4E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50EAD7F22C5F4C010058D4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50EAD7F32C5F4C010058D4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		50EAD7F52C5F4C010058D4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennyWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50EAD7F62C5F4C010058D4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PennyWise/PennyWise.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PennyWise/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		50EAD7F82C5F4C010058D4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyWise";
+			};
+			name = Debug;
+		};
+		50EAD7F92C5F4C010058D4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennyWise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PennyWise";
+			};
+			name = Release;
+		};
+		50EAD7FB2C5F4C010058D4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyWise;
+			};
+			name = Debug;
+		};
+		50EAD7FC2C5F4C010058D4E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pgw.PennyWiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennyWise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50EAD7C52C5F4BFF0058D4E4 /* Build configuration list for PBXProject "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EAD7F22C5F4C010058D4E4 /* Debug */,
+				50EAD7F32C5F4C010058D4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EAD7F42C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EAD7F52C5F4C010058D4E4 /* Debug */,
+				50EAD7F62C5F4C010058D4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EAD7F72C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EAD7F82C5F4C010058D4E4 /* Debug */,
+				50EAD7F92C5F4C010058D4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EAD7FA2C5F4C010058D4E4 /* Build configuration list for PBXNativeTarget "PennyWiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50EAD7FB2C5F4C010058D4E4 /* Debug */,
+				50EAD7FC2C5F4C010058D4E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50EAD7D12C5F4BFF0058D4E4 /* PennyWise.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50EAD7D22C5F4BFF0058D4E4 /* PennyWise.xcdatamodel */,
+			);
+			currentVersion = 50EAD7D22C5F4BFF0058D4E4 /* PennyWise.xcdatamodel */;
+			path = PennyWise.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50EAD7C22C5F4BFF0058D4E4 /* Project object */;
+}
